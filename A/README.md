@@ -33,4 +33,4 @@
 
 ## Задание 2 выполненное для Linux. bash [Файл time.sh](./time.sh)
 
-## Задание 2 выполненное для Windows. CMD [Файл time.cmd](./time.cmd)
+## Задание 2 выполненное для Windows. PowerShell [Файл time.ps1](./time.ps1)
