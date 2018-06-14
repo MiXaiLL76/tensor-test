@@ -24,6 +24,15 @@
 
     Входные данные
 
-    | start_time | end_time | req_path | resp_code | resp_body |
-    | ---------- | -------- | -------- | --------- | --------- |
-    | start_time | end_time | req_path | resp_code | resp_body |
+    | start_time          | end_time            | req_path                | resp_code | resp_body                                        |
+    | ------------------- | ------------------- | ----------------------- | --------- | ------------------------------------------------ |
+    | 24.05.2015 14:05:06 | 24.05.2015 14:06:00 | /index.html             | 200       | /index.html - response with code 200             |
+    | 24.05.2015 14:05:10 | 24.05.2015 14:05:40 | /favicon.ico            | 200       | /favicon.ico - response with code 200            |
+    | 24.05.2015 14:05:14 | 24.05.2015 14:05:44 | /bd.php                 | 404       | /bd.php - response with code 404                 |
+    | 24.05.2015 14:05:18 | 24.05.2015 14:05:37 | /js/main.js             | 200       | /js/main.js - response with code 200             |
+    | 24.05.2015 14:06:08 | 24.05.2015 14:06:27 | /js/jquery-ui.js        | 200       | /js/jquery-ui.js - response with code 200        |
+    | 24.05.2015 14:06:25 | 24.05.2015 14:07:08 | /js/jquery-3.3.1.min.js | 200       | /js/jquery-3.3.1.min.js - response with code 200 |
+    | 24.05.2015 14:06:42 | 24.05.2015 14:07:04 | /styles/main.css        | 200       | /styles/main.css - response with code 200        |
+    | 24.05.2015 14:06:59 | 24.05.2015 14:07:39 | /styles/cam.png         | 403       | /styles/cam.png - response with code 403         |
+    | 24.05.2015 14:07:16 | 24.05.2015 14:07:41 | /styles/close.png       | 403       | /styles/close.png - response with code 403       |
+    | 24.05.2015 14:07:33 | 24.05.2015 14:07:55 | /js/socket.js           | 200       | /js/socket.js - response with code 200           |
