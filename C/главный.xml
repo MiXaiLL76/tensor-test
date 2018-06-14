@@ -1,0 +1,17 @@
+<pricelist>
+  <tag name="11">
+    <title>Книга 1</title>
+    <author>Автор 1</author>
+    <tag1 name="y1">Цена 1</tag1>
+  </tag>
+  <tag name="21">
+    <title>Книга 2</title>
+    <author>Автор 2</author>
+    <tag1 name="y1">Цена 2</tag1>
+  </tag>
+  <tag name="31">
+    <title>Книга 3</title>
+    <author>Автор 3</author>
+    <tag1 name="y1">Цена 3</tag1>
+  </tag>
+</pricelist>
